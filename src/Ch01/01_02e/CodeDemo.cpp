@@ -5,7 +5,10 @@
 #include <iostream>
 
 int main(){
-    std::cout << "Hi There!" << std::endl;
+    std::string str;
+    std::cout << "Enter your name: " << std::flush;
+    std::cin >> str;
+    std::cout << "Hello, " << str << "!" << std::endl;
 
     std::cout << std::endl << std::endl;
     return (0);
